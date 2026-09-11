@@ -13,13 +13,23 @@
     <nav class="Navbar">
         <div class="Logo">Blogger</div>
         <ul class="Nav-links">
-            <li><a href="Home.html">Home</a></li>
-            <li><div class="Pic-Text"><img src="Plusicon.png" height="50px"><a href="#">Post</a></div></li>
+            <li><a href="Index.html">Home</a></li>
+            <li><div class="Pic-Text"><img src="Plusicon.png" height="50px"><a href="#" id="openPost">Post</a></div></li>
         </ul>
-        <div class="Pic-Text">
+        <div class="Pic-Text2">
             <img src="Profile Pic.png" height="50px" class="Pic">
                 <a href="#" class="Text"><span id="username"></span></a>
         </div>
     </nav>
+    <div id="postModal" class="modal hidden">
+    <div class="modal-content">
+        <textarea id="postText" placeholder="Post Content"></textarea>
+        <div class="modal-buttons">
+        <button id="cancelPost">Cancel</button>
+        <button id="submitPost">Post</button>
+        </div>
+    </div>
+    </div>
+    <div id="postsContainer"></div>
 </body>
 </html>
