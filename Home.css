@@ -2,7 +2,7 @@ body {
   margin: 0;
   min-height: 100vh;
   background: linear-gradient(135deg, #304bc6 0%, #26146a 50%, #4536a8 100%);
-  font-family: 'Notable', sans-serif;
+  font-family: 'Gill sans', sans-serif;
 }
 
 .Navbar{
