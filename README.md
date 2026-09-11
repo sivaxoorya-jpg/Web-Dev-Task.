@@ -18,7 +18,13 @@ Google Fonts, images available on the web, some AI to edit the pictures used..
 
 To run the Project:
 
-Go on GitHub open the repo then go on the settings and click the pages button then choose  
+Go on GitHub open the repo then go on the settings and click the pages button then choose main and /root and press save..it will start launching the website. Which can then be viewed from the link that pops up.. 
+
+AI uses:
+
+Claude was used for getting code for some parts of the website for which i didn't know the proper code for..
+
+
 
 
 
